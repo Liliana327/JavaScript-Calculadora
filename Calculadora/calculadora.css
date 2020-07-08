@@ -22,7 +22,7 @@ body{
 .calculadora-grilla > button:hover{
     background-color: rgba(204, 99, 245, 0.9);
 }
-.autput {
+.output {
     grid-column: 1 / -1;
     background-color: rgba(84, 11, 87, 0.75);
     display: flex;
@@ -33,7 +33,7 @@ body{
     word-wrap: break-word;
     word-break: break-all;
 }
-.autput .display {
+.output .display {
     color: purple;
     font-size: 1.85rem;
     text-align: right;
